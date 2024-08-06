@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Mansalva", -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+
+  a {
+    outline: 0;
+    text-decoration: none;
+  }
+
+  ::selection {
+    background: transparent;
+  }
+}
