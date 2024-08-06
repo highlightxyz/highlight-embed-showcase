@@ -1,0 +1,40 @@
+.environment {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+
+  img {
+    display: block;
+    max-height: 100vh;
+    min-width: 50%;
+
+    &.filler {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      height: 100vh;
+      width: 100vw;
+      z-index: -1;
+
+      &.left {
+        right: 50%;
+      }
+
+      &.right {
+        left: 50%;
+      }
+    }
+  }
+
+  &.background {
+    filter: blur(2px);
+    z-index: 1;
+  }
+
+  &.foreground {
+    transform: translateX(-50%) scale(1.15);
+    z-index: 2;
+  }
+}
