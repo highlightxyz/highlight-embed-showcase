@@ -1,0 +1,59 @@
+.nft {
+  display: flex;
+  height: 100%;
+  transition: opacity 0.33s;
+
+  img {
+    display: block;
+    width: 100%;
+    top: 0;
+  }
+
+  .revealAura {
+    --aura-color: rgb(255, 245, 206);
+
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.33s;
+    animation: auraRotateAnimation 10s infinite linear;
+    z-index: -1;
+
+    .aura {
+      position: absolute;
+      width: 25vh;
+      height: 25vh;
+      border-radius: 50%;
+      background-color: #fff;
+      box-shadow: 0 0 6vh 3vh #fff, 0 0 8vh 6vh #fff,
+        0 0 16vh 16vh var(--aura-color);
+      z-index: 1;
+    }
+
+    .flare {
+      position: absolute;
+      width: 1vh;
+      height: 33vh;
+      border-radius: 50%;
+      box-shadow: 0 -26vh 8vh 8vh var(--aura-color),
+        0 26vh 8vh 8vh var(--aura-color);
+
+      &:nth-of-type(2) {
+        transform: rotate(90deg);
+      }
+    }
+
+    @keyframes auraRotateAnimation {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import Environment from "./modules/environment/Environment";
 import Rod from "./modules/rod/Rod";
 import IceCube from "./modules/ice-cube/IceCube";
+import Nft from "./modules/nft/Nft";
 
 import "./styles/reset.scss";
 import "./styles/general.scss";
@@ -10,7 +11,9 @@ function App() {
     <>
       <Environment />
       <Rod>
-        <IceCube />
+        <IceCube>
+          <Nft />
+        </IceCube>
       </Rod>
     </>
   );
