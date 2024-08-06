@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  top: 1vh;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 50;
+  pointer-events: none;
+
+  img {
+    display: block;
+    width: 45vh;
+  }
+}
