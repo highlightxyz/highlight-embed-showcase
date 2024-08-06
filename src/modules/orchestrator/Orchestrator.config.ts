@@ -54,7 +54,6 @@ export const ORCHESTRATION_STEPS: OrchestratorStageT[] = [
       [() => useRodStore.setState({ lineLoweredPercent: 100 }), 125],
       [() => playSound(SOUNDS.waterSplashIn), 625],
     ],
-    autoplayNext: true, // @TODO: Remove later
   },
   {
     name: ORCHESTRATOR_STEP_NAMES.ROD_SHAKING,

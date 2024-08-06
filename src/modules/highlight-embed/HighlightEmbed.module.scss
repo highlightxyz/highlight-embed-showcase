@@ -10,4 +10,15 @@
   align-items: center;
   transition: opacity 0.33s;
   z-index: 100;
+
+  [data-widget="highlight-mint-card"] {
+    border: 0.5vh solid #000000;
+    border-radius: 2vh;
+    overflow: hidden;
+  }
+}
+
+:global(.highlight-Modal-root) {
+  opacity: 0 !important;
+  z-index: -9999 !important;
 }
