@@ -1,0 +1,79 @@
+.rod {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateX(-50%);
+  width: 190vh;
+  z-index: 3;
+
+  img {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    left: 0.5%;
+    transition: opacity 0.33s;
+    z-index: 4;
+  }
+
+  .mask {
+    img {
+      position: relative;
+      bottom: initial;
+      left: initial;
+      width: initial;
+    }
+  }
+
+  .line {
+    position: fixed;
+    top: 30%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 40vh;
+    transform-origin: center top;
+    transition: transform 0.5s;
+    z-index: -1;
+
+    .string {
+      position: absolute;
+      top: 0;
+      width: 1.5vh;
+      height: 100%;
+      background: #010101;
+      transform: scale3d(1, 15%, 1);
+      transform-origin: top;
+      transition: opacity 0.33s;
+    }
+
+    .bait {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 10vh;
+      height: 100%;
+      transform: translate3d(-50%, 15%, 0);
+      transition: opacity 0.33s;
+
+      img {
+        top: 0;
+      }
+    }
+
+    .content {
+      position: relative;
+      width: 100%;
+      transform: translate3d(0, 15%, 0);
+    }
+
+    .string,
+    .bait,
+    .content {
+      transition: transform 0.5s;
+    }
+  }
+}
