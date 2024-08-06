@@ -1,0 +1,15 @@
+button.button,
+a.button {
+  position: relative;
+  color: #fdfcf8;
+  background: #2b62f2;
+  padding: 1vh 2vh;
+  border: 0.6vh solid #000000;
+  border-radius: 1vh;
+  cursor: pointer;
+
+  span {
+    display: block;
+    font-size: 3vh;
+  }
+}
