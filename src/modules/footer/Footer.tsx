@@ -15,7 +15,7 @@ const Footer = () => {
         pointerEvents: isEmbedVisible ? "auto" : "none",
       }}
     >
-      <Button href="@TODO" target="_blank">
+      <Button href="https://github.com/highlightxyz/highlight-embed-showcase" target="_blank">
         Read the guide
       </Button>
     </div>
