@@ -1579,7 +1579,7 @@ const HighlightEmbed = () => {
 export default HighlightEmbed;
 ```
 
-Make sure to provide your collection ID, or feel free to use our demo one: `@TODO: collection ID`.
+Make sure to provide your collection ID, or feel free to use our demo one: 66b68da2e5d801e1356d2fd4.
 
 You can also see that we are customizing the embed to fit the website's style better by hiding the NFT previews (`data-template`) and providing a custom theme (`data-theme`).
 
