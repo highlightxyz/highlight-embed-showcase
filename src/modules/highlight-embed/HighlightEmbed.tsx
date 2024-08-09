@@ -64,7 +64,7 @@ const HighlightEmbed = () => {
     >
       <div
         data-widget="highlight-mint-card"
-        data-mint-collection-id="<YOUR-COLLECTION-ID-HERE>"
+        data-mint-collection-id="66b68da2e5d801e1356d2fd4"
         data-template="no-art"
         data-theme={`{"bgColor":"#2B62F2","textColor":"#ffffff","accentColor":"#d1e2f6", "fontFamily":"Mansalva"}`}
       ></div>
