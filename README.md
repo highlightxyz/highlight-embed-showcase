@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Superchain Chiblings ([Highlight page](https://highlight.xyz/mint/66a10e2da960c995e3019817)) is an NFT art collection of 20,000 characters created by Secretpikachu ([X/Twitter](https://x.com/ttyl5h/)). To enhance the project's minting experience, they partnered with bartosjiri ([X/Twitter](https://x.com/bartosjiri_)) to develop a custom website for the project.
+Superchain Chiblings ([Highlight page](https://highlight.xyz/mint/66a10e2da960c995e3019817)) is an NFT art collection of 20,000 characters created by Secretpikachu ([X/Twitter](https://x.com/ttyl5h/)) and released on [Base](https://www.base.org/). To enhance the project's minting experience, they partnered with bartosjiri ([X/Twitter](https://x.com/bartosjiri_)) to develop a custom website for the project.
 
 The following is bartosjiri's breakdown of the website development, utilizing Highlight's embed feature ([docs](https://support.highlight.xyz/knowledge-base/for-creators/selling-your-nfts/sell-on-your-own-site-using-embeds)).
 
@@ -1510,7 +1510,7 @@ Our animations are now working and finished. You can try out both walkthrough op
 
 ### Step 5: Implementing Highlight embed
 
-Begin by creating a new collection on Highlight ([website](https://highlight.xyz)). For our project we've used the PFP guide ([docs](https://support.highlight.xyz/knowledge-base/for-creators/project-quick-start-guides/launch-a-pfp-project)).
+Begin by creating a new collection on Highlight ([website](https://highlight.xyz)) and selecting Base as your blockchain. For our project we've used the PFP guide ([docs](https://support.highlight.xyz/knowledge-base/for-creators/project-quick-start-guides/launch-a-pfp-project)).
 
 We've prepared a custom demo Superchain Chiblings collection metadata and assets, available for download in this repository ([link](./public/downloads/demo-chiblings.zip)).
 
